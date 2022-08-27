@@ -38,7 +38,7 @@ const Main = () => {
           <CardBack cvc={cvc} />
         </div>
       </div>
-      <div className="flex items-center bg-white lg:w-2/3 lg:justify-center xs:mt-24 lg:mt-0">
+      <div className="flex items-center bg-white z-10 lg:w-2/3 lg:justify-center xs:mt-24 lg:mt-0">
         <div>{isCompleted ? <ThankYou reset={reset} /> : <Form setData={setData} />}</div>
       </div>
     </div>
