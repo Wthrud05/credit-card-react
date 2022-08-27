@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/credit-card-react/static/css/main.2a2d202c.css",
+    "main.js": "/credit-card-react/static/js/main.05188ab0.js",
+    "index.html": "/credit-card-react/index.html",
+    "main.2a2d202c.css.map": "/credit-card-react/static/css/main.2a2d202c.css.map",
+    "main.05188ab0.js.map": "/credit-card-react/static/js/main.05188ab0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a2d202c.css",
+    "static/js/main.05188ab0.js"
+  ]
+}
