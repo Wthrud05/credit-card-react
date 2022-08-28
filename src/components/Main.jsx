@@ -32,13 +32,13 @@ const Main = () => {
 
   return (
     <div className="h-screen w-full flex items-center xs:flex-col lg:flex-row">
-      <div className="bg-gradient-to-r from-fuchsia-900 to-indigo-900 p-5 w-full flex items-center justify-center h-1/3 relative lg:h-full lg:w-1/3">
+      <div className="bg-gradient-to-r from-fuchsia-900 to-indigo-900 p-5 w-full flex items-center justify-center h-1/3 relative z-10 lg:h-full lg:w-1/3">
         <div className="flex flex-col-reverse absolute xs:top-6 lg:top-1/2 lg:translate-y-[-50%] lg:left-1/3 lg:flex-col md:left-1/3">
           <CardFront onwerName={ownerName} cardNumber={cardNumber} month={month} year={year} />
           <CardBack cvc={cvc} />
         </div>
       </div>
-      <div className="flex items-center bg-white z-10 lg:w-2/3 lg:justify-center xs:mt-24 lg:mt-0">
+      <div className="flex items-center bg-white w-[360px] lg:w-2/3 lg:justify-center z-10 xs:mt-24 lg:mt-0 lg:z-0">
         <div>{isCompleted ? <ThankYou reset={reset} /> : <Form setData={setData} />}</div>
       </div>
     </div>
