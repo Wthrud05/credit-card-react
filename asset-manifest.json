@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/credit-card-react/static/css/main.d95ba3f5.css",
-    "main.js": "/credit-card-react/static/js/main.40004768.js",
+    "main.css": "/credit-card-react/static/css/main.2f3bfe99.css",
+    "main.js": "/credit-card-react/static/js/main.61ee49e7.js",
     "index.html": "/credit-card-react/index.html",
-    "main.d95ba3f5.css.map": "/credit-card-react/static/css/main.d95ba3f5.css.map",
-    "main.40004768.js.map": "/credit-card-react/static/js/main.40004768.js.map"
+    "main.2f3bfe99.css.map": "/credit-card-react/static/css/main.2f3bfe99.css.map",
+    "main.61ee49e7.js.map": "/credit-card-react/static/js/main.61ee49e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.d95ba3f5.css",
-    "static/js/main.40004768.js"
+    "static/css/main.2f3bfe99.css",
+    "static/js/main.61ee49e7.js"
   ]
 }
